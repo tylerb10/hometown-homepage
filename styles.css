@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    text-align: center;
+    border: white 8px solid;
+    border-radius: 20px;
+}
+
+img {
+    width: 125px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.italic-font {
+    font-style: italic;
+}
+
+.hero-container {
+    padding: 75px;
+    background-image: url("images/seattle-hero.jpg");
+    background-size: cover;
+    background-position: center center;
+    border-radius: 25px 25px 0 0;
+}
+
+.hero-text-header {
+    background-color: #06283D;
+    width: 190px;
+    margin: 0 auto;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    opacity: .75;
+}
+
+.hero-text-subheader {
+    background-color: #256D85;
+    width: 350px;
+    margin: 25px auto;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    opacity: .8;
+}
+
+.activities-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #DFF6FF;
+    color: #212427;
+    padding: 10px 15px;
+    margin: 0 auto;
+}
+
+.activities-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.guide-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px auto;
+    gap: 20px;
+    min-width: 350px;
+    max-width: 500px;
+    background-color: #256D85;
+    padding: 15px 30px;
+    border-radius: 10px;;
+    color: #F9F6EE;
+}
+
+.image-small {
+    border-radius: 15%;
+    width: 70%;
+    min-width: 100px;
+    max-width: 300px;
+}
+
+.image-portrait {
+    border: #F9F6EE 2px solid;
+}
